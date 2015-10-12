@@ -10,7 +10,6 @@ dist
 build
 eggs
 parts
-bin
 var
 sdist
 develop-eggs
@@ -35,9 +34,16 @@ pip-log.txt
 nosetests.xml
 
 # Translations
-*.mo
+# *.mo
 
 # Mr Developer
 .mr.developer.cfg
 .project
 .pydevproject
+
+# PyCharm config
+.idea
+
+# Windows files generated during setup
+evennia.bat
+twistd.bat
